@@ -32,10 +32,10 @@ section#login {
 }
 #imagem {
   display: block;
-  background: url(../imagens/pexels-jatin-baghel-11146-57565\\(1\).jpg)
-    no-repeat;
+  background: url(../imagens/pexels-jatin-baghel-11146-57565\ \(1\).jpg);
   height: 200px;
   background-size: cover;
+
 }
 
 #formulario {
