@@ -23,9 +23,9 @@ section#login {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transition: width .2s, heigth 0.2s;
+  transition: width .4s, heigth 0.4s;
   transition-timing-function: ease;
+  transform: translate(-50%, -50%);
 
   background-color: white;
   width: 260px;
@@ -80,7 +80,7 @@ border-radius: 5px;
 color: white;
 background-color: black;
 cursor: pointer;
-margin-top: 3px;
+margin-top: 34px;
 padding-bottom: 3px;
 }
 form > input[type=submit]:hover {
@@ -91,4 +91,23 @@ form > input[type=submit]:hover {
   height: 30px;
   border-radius: 5px;
   margin: 5px 0;
+}
+label{
+  display: none;
+}
+.material-symbols-outlined {
+  color: white;
+  width: 40px;
+  padding: 5px;
+  font-size: 2em;
+}
+input {
+  background-color: rgb(40, 40, 40);
+  font-size: 1em;
+  width: calc(100% - 46px);
+  height: 100%;
+  border: 0px;
+  border-radius: 5px;
+  padding: 4px;
+  transform: translatey(-7px);
 }
