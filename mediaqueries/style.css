@@ -17,21 +17,26 @@ body {
   background-image: linear-gradient(to top, rgb(63, 17, 17), #bc2907 );
 }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
   section#login {
     width: 90vw;
   }
   div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
   }
   div#formulario {
-    float: right;
+    float: left;
     width: 50%;
   }
 body {
    background-image: linear-gradient(to top, rgb(63, 17, 17), #bc2907 );
 }
-  
+#formulario > h1 {
+  font-size: 2em;
+}
+#formulario > p {
+  font-size: 1.2em;
+}
 }
